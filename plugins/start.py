@@ -127,8 +127,8 @@ async def start_command(client: Client, message: Message):
                     snt_msgs.append(snt_msg)
                 except:
                     pass
-
-            SD = await message.reply_text("Baka! Files will be deleted After 300 seconds. Save them to the Saved Message now!")
+            #commenting auto delete function
+            '''SD = await message.reply_text("Baka! Files will be deleted After 300 seconds. Save them to the Saved Message now!")
             await asyncio.sleep(300)
 
             for snt_msg in snt_msgs:
@@ -136,7 +136,7 @@ async def start_command(client: Client, message: Message):
                     await snt_msg.delete()
                     await SD.delete()
                 except:
-                    pass
+                    pass'''
 
 
         elif verify_status['is_verified']:
