@@ -1,8 +1,3 @@
-#(©)Codeflix_Bots
-
-
-
-
 
 from aiohttp import web
 from .route import routes
